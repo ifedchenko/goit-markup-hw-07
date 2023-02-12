@@ -20,18 +20,117 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
   }
+
+  .contact-email {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
   .header-contacts {
     display: flex;
     column-gap: 40px;
+    padding: 24px 0;
   }
 
-  /* column-gap: 40px; */
   /* -----------------INDEX-HERO------------------------------------ */
+
+  .hero {
+    padding: 188px 0;
+  }
+
+  .hero-title {
+    font-size: 56px;
+    max-width: 496px;
+  }
+  .hero {
+    background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero/people-office-desktop-1x.jpg);
+  }
   /* -----------------INDEX-FEATURES-------------------------------- */
+  .our-features {
+    padding: 120px 0;
+  }
+  .our-features-items {
+    width: 264px;
+  }
+  .our-features-list {
+    width: 100%;
+  }
+  .our-features-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 264px;
+    height: 121px;
+    background-color: var(--cloud-color);
+  }
+  .our-features-suptitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
   /* -----------------INDEX-What-Are-We-Doing----------------------- */
+  .what-we-do {
+    display: unset;
+    padding-bottom: 120px;
+  }
+  .what-we-do-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: --navy-blue-color;
+    text-align: center;
+    margin-bottom: 72px;
+  }
+
+  .what-we-do-list {
+    display: flex;
+    gap: 24px;
+  }
+
+  .what-we-do-items {
+    width: calc((100%-48px) / 3);
+  }
   /* -----------------INDEX-OUR-TEAM-------------------------------- */
+  .our-team-list {
+    width: 100%;
+  }
   /* -----------------INDEX-CUSTOMERS------------------------------- */
+  .customers-list {
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+
+  .customers-item {
+    width: 168px;
+  }
   /* -----------------INDEX-FOOTER---------------------------------- */
+  .logo-menu-footer {
+    text-align: left;
+  }
+
+  .footer > .container {
+    max-width: 1158px;
+    padding-left: 16px;
+    display: flex;
+    flex-wrap: nowrap;
+    column-gap: 0;
+    row-gap: 0;
+    align-items: baseline;
+  }
+
+  .footer-text-part {
+    margin-right: 120px;
+  }
+  .footer-subscribe-part {
+    margin-left: auto;
+  }
   /* -----------------MODAL-ORDER----------------------------------- */
   .modal {
     width: 408px;
