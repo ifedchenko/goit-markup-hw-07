@@ -203,16 +203,28 @@
   }
   /* -----------------INDEX-FOOTER---------------------------------- */
   .footer-text-part {
-    margin-right: 120px;
+    margin: 0;
   }
 
   .footer > .container {
+    padding-left: 108px;
     display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 72px;
     align-items: baseline;
   }
   .footer-subscribe-block {
     display: flex;
     gap: 24px;
+  }
+
+  .footer-subscribe-part p {
+    text-align: left;
+  }
+
+  .footer-social-media-part {
+    margin-bottom: 0;
   }
 
   /* -----------------MODAL-ORDER----------------------------------- */
