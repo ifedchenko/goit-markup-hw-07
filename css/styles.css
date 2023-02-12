@@ -223,6 +223,8 @@ body {
 
 .our-team-item {
   margin: 0 auto;
+  height: 100%;
+  padding-bottom: 32px;
 }
 
 .our-team-title {
@@ -234,11 +236,6 @@ body {
   color: var(--navy-blue-color);
   text-align: center;
   margin-bottom: 72px;
-}
-
-.our-team-item {
-  height: 100%;
-  padding-bottom: 32px;
 }
 
 .our-team-item:not(:last-child) {
