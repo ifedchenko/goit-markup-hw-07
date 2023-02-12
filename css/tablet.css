@@ -91,19 +91,63 @@
     ),
     url(../images/hero/people-office-tablet-1x.jpg);
   /* -----------------INDEX-FEATURES-------------------------------- */
-  .our-features-list {
-    display: flex;
-    gap: 24px;
+
+  .our-features-suptitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue-color);
+    margin: 8px 0;
   }
 
-  .our-features-icons {
+  .our-features-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate-color);
+  }
+  .our-features-items {
+    width: 264px;
+  }
+  .our-features-suptitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue-color);
+    margin: 8px 0;
+  }
+
+  .our-features-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate-color);
+  }
+  .our-features-items {
+    width: 356px;
+  }
+  /* .our-features-icons {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 264px;
     height: 121px;
-    background-color: var(--cloud-color);
-    /* padding: 24px 100px;  с таким параметром неверный отступ снизу*/
+    background-color: var(--cloud-color); 
+    /* padding: 24px 100px;  с таким параметром неверный отступ снизу
+  }*/
+  .our-features-items:not(:last-child) {
+    margin-bottom: 0;
+  }
+  .our-features-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 72px;
+    justify-content: center;
   }
 
   /* -----------------INDEX-What-Are-We-Doing----------------------- */
