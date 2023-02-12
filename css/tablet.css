@@ -193,6 +193,14 @@
   }
 
   /* -----------------INDEX-CUSTOMERS------------------------------- */
+
+  .customers-item {
+    width: calc((100% - 72px) / 3);
+  }
+
+  .customers-list {
+    justify-content: center;
+  }
   /* -----------------INDEX-FOOTER---------------------------------- */
   .footer-text-part {
     margin-right: 120px;
