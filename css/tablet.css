@@ -11,12 +11,13 @@
   /* -----------------INDEX-HEADER---------------------------------- */
   .header > .container {
     display: flex;
+    gap: 118px;
   }
 
   .header-nav {
     display: flex;
     flex-wrap: nowrap;
-    column-gap: 76px;
+    column-gap: 123px;
   }
 
   .header-list {
