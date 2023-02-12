@@ -176,9 +176,20 @@
 
   /* -----------------INDEX-OUR-TEAM-------------------------------- */
 
+  .our-team-item {
+    margin: 0;
+  }
+
+  .our-team-item:not(:last-child) {
+    margin-bottom: 0;
+  }
+
   .our-team-list {
     display: flex;
-    gap: 24px;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 64px;
+    justify-content: center;
   }
 
   /* -----------------INDEX-CUSTOMERS------------------------------- */
