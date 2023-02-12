@@ -20,6 +20,12 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
   }
+  .header-contacts {
+    display: flex;
+    column-gap: 40px;
+  }
+
+  /* column-gap: 40px; */
   /* -----------------INDEX-HERO------------------------------------ */
   /* -----------------INDEX-FEATURES-------------------------------- */
   /* -----------------INDEX-What-Are-We-Doing----------------------- */

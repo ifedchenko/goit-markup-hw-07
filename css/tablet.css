@@ -26,8 +26,10 @@
   }
 
   .header-contacts {
-    display: flex;
-    column-gap: 40px;
+    /* display: flex; */
+    display: block;
+
+    /* column-gap: 40px; */
   }
 
   .header-link {
@@ -61,13 +63,18 @@
   }
   .contact-link {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.33;
     letter-spacing: 0.04em;
     color: var(--slate-color);
-    padding: 24px 0;
+
     display: block;
     transition: color var(--transition-time);
+  }
+
+  .contact-email {
+    margin-top: 24px;
+    margin-bottom: 4px;
   }
 
   .contact-link:hover,
