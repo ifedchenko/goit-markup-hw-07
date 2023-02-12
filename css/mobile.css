@@ -11,6 +11,29 @@
   /* -----------------INDEX-HEADER---------------------------------- */
 
   /* -----------------INDEX-HERO------------------------------------ */
+
+  .hero {
+    background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero/people-office-tablet-1x.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          to right,
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero/people-office-tablet-2x.jpg);
+    }
+  }
+
   .hero-title {
     font-size: 36px;
   }
