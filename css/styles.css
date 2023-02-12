@@ -94,7 +94,11 @@ body {
   height: 4px;
   background-color: var(--hover-color);
 } */
-
+.menu-mobile {
+  position: absolute;
+  right: 16px;
+  top: 24px;
+}
 /* -----------------INDEX-HERO------------------- */
 .hero {
   padding: 112px 0;
