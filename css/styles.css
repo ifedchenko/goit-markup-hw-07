@@ -99,6 +99,13 @@ body {
   right: 16px;
   top: 24px;
 }
+.menu-open-btn {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  display: block;
+}
 /* -----------------INDEX-HERO------------------- */
 .hero {
   padding: 112px 0;
@@ -109,10 +116,23 @@ body {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero/people-office-tablet-1x.jpg);
+    url(../images/hero/people-office-mob-1x.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero/people-office-mob-2x.jpg);
+  }
 }
 
 .hero-title {
