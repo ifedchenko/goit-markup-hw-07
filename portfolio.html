@@ -23,6 +23,9 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/desktop.css" />
   </head>
   <body>
     <header class="header">
@@ -316,7 +319,7 @@
         </div>
       </section>
     </main>
-    <footer class="footer">
+    <footer id="contacts" class="footer">
       <div class="container">
         <div class="footer-text-part">
           <a href="./index.html" class="logo-menu-footer link-none"
@@ -395,6 +398,31 @@
               </a>
             </li>
           </ul>
+        </div>
+        <div class="footer-subscribe-part">
+          <form action="#" class="form-subscribe">
+            <p>Subscribe</p>
+            <label for="email" class="visually-hidden">email</label>
+            <div class="footer-subscribe-block">
+              <input
+                class="footer-input-subscribe"
+                aria-label="email"
+                type="email"
+                name="email"
+                id="email"
+                placeholder="E-mail"
+                autocomplete="off"
+              />
+              <button type="submit" class="footer-subscribe-btn">
+                Subscribe
+                <svg width="24" height="24">
+                  <use
+                    href="./images/svg/icons.svg#icon-subscribe"
+                  ></use>
+                </svg>
+              </button>
+            </div>
+          </form>
         </div>
       </div>
     </footer>
