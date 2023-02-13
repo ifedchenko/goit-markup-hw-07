@@ -99,14 +99,124 @@ body {
   right: 16px;
   top: 24px;
 }
-.menu-open-btn {
+
+.link-mobile-menu {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: var(--navy-blue-color);
+}
+.link-mobile-menu:hover {
+  color: var(--hover-color);
+}
+/* .mobile-list-item:first-child {
+  margin-top: 40px;
+} */
+/* .mobile-list-item:not(:last-child) {
+  margin-bottom: 40px;
+} */
+
+.mobile-list {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 352px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu-container > .modal-close-btn {
+  top: 40px;
+  right: 40px;
+}
+.menu-toggle {
   margin: 0;
   padding: 0;
   border: 0;
   background-color: transparent;
   display: block;
 }
-/* -----------------INDEX-HERO------------------- */
+.menu-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  padding: 40px;
+  background-color: #fff;
+  z-index: 999;
+  transform: translateX(100%);
+  transition: var(--transition-time);
+}
+
+.menu-container.is-open {
+  transform: translateX(0);
+}
+
+.menu-icon-list {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 48px;
+}
+
+.menu-social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--iris-color);
+  transition: background-color var(--transition-time);
+  color: var(--cloud-color);
+}
+
+.menu-social-links-ico {
+  fill: currentColor;
+}
+
+.mobile-menu-contacts {
+  text-decoration: none;
+  font-style: normal;
+  color: var(--slate-color);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.mobile-menu-contacts:is(:hover, :focus) {
+  color: var(--iris-color);
+}
+
+.mobile-menu-contact-tel {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.11;
+  text-transform: capitalize;
+}
+.mobile-menu-contact-email {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.mob-contacts-block {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+/* .mobile-list {
+  position: absolute;
+  top: 40px;
+  left: 20%;
+} */
+
+/* -----------------INDEX-HERO-------------------  */
 .hero {
   padding: 112px 0;
   text-align: center;
