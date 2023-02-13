@@ -70,7 +70,11 @@
         </ul>
       </div>
       <div class="menu-mobile">
-        <button type="button" class="menu-open-btn">
+        <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
           <svg width="32" height="22">
             <use href="./images/svg/icons.svg#icon-charm-menu"></use>
           </svg>
@@ -789,6 +793,108 @@
 
           <button class="modal-send-btn" type="submit">Send</button>
         </form>
+      </div>
+    </div>
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button
+        class="menu-toggle modal-close-btn js-close-menu"
+        type="button"
+      >
+        <svg class="modal-close-svg" width="8" height="8">
+          <use
+            href="./images/svg/icons.svg#icon-modal-close-btn"
+          ></use>
+        </svg>
+      </button>
+      <ul class="mobile-list list-none">
+        <li class="mobile-list-item">
+          <a href="./index.html" class="link-mobile-menu">studio</a>
+        </li>
+        <li class="mobile-list-item">
+          <a href="./portfolio.html" class="link-mobile-menu"
+            >portfolio</a
+          >
+        </li>
+        <li class="mobile-list-item">
+          <a href="./contacts.html" class="link-mobile-menu"
+            >contacts</a
+          >
+        </li>
+      </ul>
+      <div class="mob-contacts-block">
+        <address>
+          <ul class="mobile-menu-contacts list-none">
+            <li>
+              <a
+                href="tel:+110001111111"
+                class="mobile-menu-contacts mobile-menu-contact-tel link-none"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li>
+              <a
+                href="mailto:info@devstudio.com"
+                class="mobile-menu-contacts mobile-menu-contact-email link-none"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+        </address>
+        <ul class="menu-icon-list list-none">
+          <li class="social-links-item">
+            <a
+              href="https://www.instagram.com/"
+              class="menu-social-links"
+            >
+              <svg
+                class="menu-social-links-ico instagram"
+                width="16"
+                height="16"
+              >
+                <use
+                  href="./images/svg/icons.svg#icon-instagram"
+                ></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-links-item">
+            <a class="menu-social-links" href="https://twitter.com/">
+              <svg
+                class="menu-social-links-ico twitter"
+                width="16"
+                height="16"
+              >
+                <use href="./images/svg/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-links-item">
+            <a class="menu-social-links" href="https://facebook.com">
+              <svg
+                class="menu-social-links-ico facebook"
+                width="16"
+                height="16"
+              >
+                <use
+                  href="./images/svg/icons.svg#icon-facebook"
+                ></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-links-item">
+            <a class="menu-social-links" href="https://linkedin.com">
+              <svg
+                class="social-links-ico linkedin"
+                width="16"
+                height="16"
+              >
+                <use
+                  href="./images/svg/icons.svg#icon-linkedin"
+                ></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
     <script src="./js/modal.js"></script>
