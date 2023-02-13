@@ -7,6 +7,9 @@
   --transition-time: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.container {
+  max-width: 1200px;
+}
 @media screen and (min-width: 1200px) {
   /* -----------------INDEX-HEADER---------------------------------- */
   .header > .container {
@@ -35,6 +38,7 @@
 
   .hero {
     padding: 188px 0;
+    background-size: 1440px 600px;
   }
 
   .hero-title {
@@ -50,7 +54,8 @@
     width: 264px;
   }
   .our-features-list {
-    width: 100%;
+    /* width: 100%; */
+    flex-wrap: nowrap;
   }
   .our-features-icons {
     display: flex;
