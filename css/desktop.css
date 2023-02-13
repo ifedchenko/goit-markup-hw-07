@@ -68,7 +68,7 @@
 
   /* -----------------INDEX-What-Are-We-Doing----------------------- */
   .what-we-do {
-    display: unset;
+    display: flex;
     padding-bottom: 120px;
   }
   .what-we-do-title {
