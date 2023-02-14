@@ -71,6 +71,13 @@
 
     justify-content: center;
   }
+  .mobile-list {
+    width: 352px;
+  }
+
+  .mob-contacts-block {
+    width: 352px;
+  }
 
   /* -----------------INDEX-FOOTER---------------------------------- */
   /* -----------------MODAL-ORDER----------------------------------- */
