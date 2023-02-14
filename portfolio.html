@@ -36,14 +36,14 @@
           >
           <ul class="header-list list-none">
             <li class="header-item">
-              <a href="./index.html" class="header-link link-none"
+              <a
+                href="./index.html"
+                class="header-link current-page link-none"
                 >Studio</a
               >
             </li>
             <li class="header-item">
-              <a
-                href="./portfolio.html"
-                class="header-link current-page link-none"
+              <a href="./portfolio.html" class="header-link link-none"
                 >Portfolio</a
               >
             </li>
@@ -58,7 +58,7 @@
           <li>
             <a
               href="mailto:info@devstudio.com"
-              class="contact-link link-none"
+              class="contact-link contact-email link-none"
               >info@devstudio.com</a
             >
           </li>
@@ -68,6 +68,17 @@
             >
           </li>
         </ul>
+      </div>
+      <div class="menu-mobile">
+        <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg width="32" height="22">
+            <use href="./images/svg/icons.svg#icon-charm-menu"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <main>
@@ -81,6 +92,11 @@
               <button type="button" class="portfolio-btn">All</button>
             </li>
             <li>
+              <button type="button" class="portfolio-btn">
+                Web Site
+              </button>
+            </li>
+            <li>
               <button type="button" class="portfolio-btn">App</button>
             </li>
             <li>
@@ -91,11 +107,6 @@
             <li>
               <button type="button" class="portfolio-btn">
                 Marketing
-              </button>
-            </li>
-            <li>
-              <button type="button" class="portfolio-btn">
-                Web Site
               </button>
             </li>
           </ul>
@@ -426,5 +437,128 @@
         </div>
       </div>
     </footer>
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button
+        class="menu-toggle js-close-menu modal-close-btn"
+        type="button"
+      >
+        <svg class="modal-close-svg" width="8" height="8">
+          <use
+            href="./images/svg/icons.svg#icon-modal-close-btn"
+          ></use>
+        </svg>
+      </button>
+      <div class="content-menu-block">
+        <ul class="mobile-list list-none">
+          <li class="mobile-list-item">
+            <a href="./index.html" class="link-mobile-menu">studio</a>
+          </li>
+          <li class="mobile-list-item">
+            <a href="./portfolio.html" class="link-mobile-menu"
+              >portfolio</a
+            >
+          </li>
+          <li class="mobile-list-item">
+            <a href="./contacts.html" class="link-mobile-menu"
+              >contacts</a
+            >
+          </li>
+        </ul>
+        <div class="mob-contacts-block">
+          <address>
+            <ul class="mobile-menu-contacts list-none">
+              <li>
+                <a
+                  href="tel:+110001111111"
+                  class="mobile-menu-contacts mobile-menu-contact-tel link-none"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li>
+                <a
+                  href="mailto:info@devstudio.com"
+                  class="mobile-menu-contacts mobile-menu-contact-email link-none"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="menu-icon-list list-none">
+            <li class="social-links-item">
+              <a
+                href="https://www.instagram.com/"
+                class="menu-social-links"
+              >
+                <svg
+                  class="menu-social-links-ico instagram"
+                  width="16"
+                  height="16"
+                >
+                  <use
+                    href="./images/svg/icons.svg#icon-instagram"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-links-item">
+              <a
+                class="menu-social-links"
+                href="https://twitter.com/"
+              >
+                <svg
+                  class="menu-social-links-ico twitter"
+                  width="16"
+                  height="16"
+                >
+                  <use
+                    href="./images/svg/icons.svg#icon-twitter"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-links-item">
+              <a
+                class="menu-social-links"
+                href="https://facebook.com"
+              >
+                <svg
+                  class="menu-social-links-ico facebook"
+                  width="16"
+                  height="16"
+                >
+                  <use
+                    href="./images/svg/icons.svg#icon-facebook"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-links-item">
+              <a
+                class="menu-social-links"
+                href="https://linkedin.com"
+              >
+                <svg
+                  class="social-links-ico linkedin"
+                  width="16"
+                  height="16"
+                >
+                  <use
+                    href="./images/svg/icons.svg#icon-linkedin"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
