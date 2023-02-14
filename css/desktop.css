@@ -133,4 +133,22 @@
     width: 408px;
     padding: 72px 24px 24px 24px;
   }
+
+  /* -----------------PORTFOLIO----------------------------------- */
+
+  .portfolio {
+    padding-top: 96px;
+    padding-bottom: 120px;
+  }
+
+  .portfolio-btn {
+    padding: 12px 24px;
+  }
+
+  .portfolio-list {
+    width: auto;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-bottom: 72px;
+  }
 }
