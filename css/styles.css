@@ -161,7 +161,16 @@ body {
   display: flex;
   gap: 20px;
   justify-content: center;
-  margin-top: 48px;
+}
+
+.mob-contacts-block {
+  display: flex;
+  width: 352px;
+  flex-wrap: wrap;
+  gap: 48px;
+  margin-top: 284px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .menu-social-links {
@@ -204,12 +213,12 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.mob-contacts-block {
+/* .mob-contacts-block {
   position: absolute;
   bottom: 40px;
   left: 50%;
   transform: translateX(-50%);
-}
+} */
 /* .mobile-list {
   position: absolute;
   top: 40px;
@@ -219,7 +228,6 @@ body {
 /* -----------------INDEX-HERO-------------------  */
 .hero {
   padding: 112px 0;
-  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -230,7 +238,7 @@ body {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/hero/people-office-mob-1x.jpg);
-  background-size: 1440px 600px;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -249,13 +257,12 @@ body {
 }
 
 .hero-title {
-  max-width: 318px;
+  /* width: 320px; */
   text-align: center;
   margin: 0 auto;
-
   font-weight: 700;
   font-size: 32px;
-  line-height: 1.07;
+  line-height: 1.11;
   color: #ffffff;
 }
 

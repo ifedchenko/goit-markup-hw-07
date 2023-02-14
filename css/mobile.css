@@ -9,6 +9,7 @@
 
 @media screen and (min-width: 480px) {
   /* -----------------INDEX-HEADER---------------------------------- */
+
   .menu-icon-list {
     display: flex;
     gap: 64px;
@@ -52,12 +53,25 @@
   }
 
   .hero-title {
+    width: 320px;
     font-size: 36px;
   }
   /* -----------------INDEX-FEATURES-------------------------------- */
   /* -----------------INDEX-What-Are-We-Doing----------------------- */
   /* -----------------INDEX-OUR-TEAM-------------------------------- */
   /* -----------------INDEX-CUSTOMERS------------------------------- */
+  .customers-list {
+    width: 396px;
+    /* margin-top: 72px; */
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+
+    justify-content: center;
+  }
+
   /* -----------------INDEX-FOOTER---------------------------------- */
   /* -----------------MODAL-ORDER----------------------------------- */
   .modal {

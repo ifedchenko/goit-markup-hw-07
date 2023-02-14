@@ -103,31 +103,30 @@
   .customers-list {
     flex-wrap: nowrap;
     gap: 24px;
+    width: 1128px;
   }
 
-  .customers-item {
-    width: 168px;
-  }
   /* -----------------INDEX-FOOTER---------------------------------- */
   .logo-menu-footer {
     text-align: left;
   }
 
-  .footer > .container {
-    max-width: 1158px;
+  .footer-block {
+    width: 1158px;
     padding-left: 16px;
     display: flex;
     flex-wrap: nowrap;
     column-gap: 0;
     row-gap: 0;
     align-items: baseline;
+    /* margin: 0 auto; */
   }
 
   .footer-text-part {
     margin-right: 120px;
   }
   .footer-subscribe-part {
-    margin-left: auto;
+    margin-left: 80px;
   }
   /* -----------------MODAL-ORDER----------------------------------- */
   .modal {

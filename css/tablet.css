@@ -108,6 +108,10 @@
         url(../images/hero/people-office-desktop-2x.jpg);
     }
   }
+  .hero-title {
+    font-size: 56px;
+    width: 496px;
+  }
   /* -----------------INDEX-FEATURES-------------------------------- */
 
   .our-features-suptitle {
@@ -179,11 +183,16 @@
   /* -----------------INDEX-CUSTOMERS------------------------------- */
 
   .customers-item {
-    width: calc((100% - 72px) / 3);
+    /* width: calc((100% - 72px) / 3); */
+    width: 168px;
   }
 
   .customers-list {
-    justify-content: center;
+    width: 552px;
+    margin-left: auto;
+    margin-right: auto;
+    /* justify-content: space-between; */
+    gap: 24px;
   }
   /* -----------------INDEX-FOOTER---------------------------------- */
   .footer-text-part {
@@ -191,12 +200,16 @@
   }
 
   .footer > .container {
-    padding-left: 108px;
+    /* padding-left: 108px; */
+  }
+  .footer-block {
+    width: 552px;
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 72px;
     align-items: baseline;
+    margin: 0 auto;
   }
   .footer-subscribe-block {
     display: flex;
