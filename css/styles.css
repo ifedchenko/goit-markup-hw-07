@@ -128,7 +128,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 40px;
-  width: 352px;
+  width: 217px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -169,7 +169,7 @@ body {
 
 .mob-contacts-block {
   display: flex;
-  width: 352px;
+  width: 217px;
   flex-wrap: wrap;
   gap: 48px;
   margin-left: auto;
@@ -228,8 +228,9 @@ body {
   left: 20%;
 } */
 .mobile-list {
-  margin-bottom: 64px;
+  margin-bottom: 284px;
 }
+
 /* -----------------INDEX-HERO-------------------  */
 .hero {
   padding: 112px 0;
