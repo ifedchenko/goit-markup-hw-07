@@ -57,6 +57,10 @@ body {
   overflow: hidden;
 }
 
+.no-scroll {
+  overflow: hidden;
+}
+
 /* -----------------INDEX-HEADER------------------- */
 .header {
   background-color: #ffffff;
