@@ -670,7 +670,7 @@ body {
     overflow: auto;
   }
   .modal {
-    transform: translate(-50%, 0) scale(1);
+    transform: translate(-50%, -30%) scale(1);
   }
 }
 
