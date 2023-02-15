@@ -608,6 +608,12 @@ body {
   margin-bottom: 16px;
 }
 
+@media screen and (min-width: 500px) {
+  .footer-input-subscribe {
+    width: 264px;
+  }
+}
+
 .footer-subscribe-btn {
   width: 165px;
   height: 40px;
