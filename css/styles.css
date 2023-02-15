@@ -338,7 +338,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  overflow-y: auto;
+  overflow-y: scroll;
 }
 
 /* .our-features-items::before {
