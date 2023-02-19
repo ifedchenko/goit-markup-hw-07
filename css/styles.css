@@ -162,7 +162,7 @@ body {
 
 .menu-container.is-open {
   transform: translateX(0);
-  overflow: scroll;
+  /* overflow: scroll; */
 }
 
 .menu-icon-list {
@@ -338,7 +338,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 /* .our-features-items::before {
