@@ -683,9 +683,9 @@ body {
     transform: translate(-50%, -30%) scale(1);
   }
 
-  .menu-container.is-open {
+  /* .menu-container.is-open {
     overflow: auto;
-  }
+  } */
 }
 
 .backdrop.is-hidden .modal {
