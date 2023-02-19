@@ -246,7 +246,7 @@
   .portfolio-images-list {
     width: 736px;
     row-gap: 72px;
-    /* justify-content: center; */
+    justify-content: flex-start;
   }
 
   .portfolio-images-item {
