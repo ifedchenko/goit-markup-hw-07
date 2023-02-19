@@ -116,11 +116,35 @@
                 class="portfolio-images-item-link link-none"
                 href="./"
               >
-                <img
-                  src="./images/portfolio/banking-app.jpg"
-                  alt="Mobile banking interface"
-                  width="360"
-                />
+                <picture>
+                  <source
+                    media="(min-width: 1200px)"
+                    srcset="
+                      ./images/portfolio/banking-app-desktop-1x.jpg 1x,
+                      /images/portfolio/banking-app-desktop-2x.jpg  2x
+                    "
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio/banking-app-tablet-1x.jpg 1x,
+                      /images/portfolio/banking-app-tablet-2x.jpg  2x
+                    "
+                  />
+                  <source
+                    media="(max-width: 768px)"
+                    srcset="
+                      ./images/portfolio/banking-app-mobile-1x.jpg 1x,
+                      /images/portfolio/banking-app-mobile-2x.jpg  2x
+                    "
+                  />
+                  <img
+                    src="./images/portfolio/banking-app-mobile-1x.jpg"
+                    alt="Mobile banking interface"
+                    width="360"
+                  />
+                </picture>
+
                 <div class="portfolio-image-details">
                   <h3 class="portfolio-images-title">
                     Banking App Interface Concept
@@ -141,11 +165,32 @@
                 class="portfolio-images-item-link link-none"
                 href="./"
               >
-                <img
-                  src="./images/portfolio/cashless-pay.jpg"
-                  alt="Payment terminal and phone"
-                  width="360"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/portfolio/cashless-pay.jpg 1x,
+                      ./images/portfolio/cashless-pay.jpg 2x
+                    "
+                  />
+                  <source
+                    srcset="
+                      ./images/portfolio/cashless-pay.jpg 1x,
+                      ./images/portfolio/cashless-pay.jpg 2x
+                    "
+                  />
+                  <source
+                    srcset="
+                      ./images/portfolio/cashless-pay.jpg 1x,
+                      ./images/portfolio/cashless-pay.jpg 2x
+                    "
+                  />
+                  <img
+                    src="./images/portfolio/cashless-pay.jpg"
+                    alt="Payment terminal and phone"
+                    width="360"
+                  />
+                </picture>
+
                 <div class="portfolio-image-details">
                   <h3 class="portfolio-images-title">
                     Cashless Payment
