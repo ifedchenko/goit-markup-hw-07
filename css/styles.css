@@ -900,21 +900,33 @@ body {
 }
 
 .portfolio-list {
-  width: 270px;
+  width: 360px;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
   gap: 24px;
   margin-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .portfolio-images-list {
+  width: 360px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   column-gap: 24px;
   row-gap: 48px;
+  margin: 0 auto;
 }
+/* @media screen and (min-width: 320px) and (max-width: 480px) {
+  .portfolio-images-list {
+    width: 100%;
+  }
+  .portfolio-list {
+    width: 100%;
+  }
+} */
 
 .portfolio-images-title {
   font-weight: 500;

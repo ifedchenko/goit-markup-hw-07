@@ -229,4 +229,27 @@
   }
 
   /* -----------------MODAL-ORDER----------------------------------- */
+
+  /* -----------------PORTFOLIO----------------------------------- */
+
+  .portfolio {
+    padding-top: 64px;
+    padding-bottom: 96px;
+  }
+  .portfolio-list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 64px;
+  }
+
+  .portfolio-images-list {
+    width: 736px;
+    row-gap: 72px;
+    /* justify-content: center; */
+  }
+
+  .portfolio-images-item {
+    width: 356px;
+  }
 }
