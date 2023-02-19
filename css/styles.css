@@ -921,7 +921,8 @@ body {
 }
 @media screen and (max-width: 320px) {
   .portfolio-list {
-    width: 270px;
+    width: 100%;
+    margin-left: 0;
   }
 }
 
